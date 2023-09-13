@@ -6,3 +6,30 @@ long 8 bytes stores whole numbers from 9 with 12 numbers
 float 4 bytes stores fractional numbers
 double 8 bytes stores fractional numbers
 char 2 bytes stores a sungle character/letter or ascii values 
+
+== 
+gelijk aan elkaar
+5 == 4
+False
+!= 
+niet gelijk aan elkaar
+5 != 4
+True
+<
+kleiner dan 
+5 < 4
+False
+>
+groter dan
+5 > 4
+True
+<= 
+kleiner of 
+gelijk aan elkaar
+5 <= 4
+False
+>=
+groter of
+gelijk aan elkaar
+5 >= 4
+True
