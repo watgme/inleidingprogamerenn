@@ -33,3 +33,9 @@ groter of
 gelijk aan elkaar
 5 >= 4
 True
+
+
+|| 
+of
+
+&& ook in if statement
