@@ -39,3 +39,20 @@ True
 of
 
 && ook in if statement
+
+boolean in een if statement
+
+if(boolean) = zoekt of het true is
+if(!boolean) = zoekt of het false is 
+if(!a & ( b || c)){ <- a moet false zijn en b of c moeten true zijn
+
+
+
+Bij switch
+case: <- zet een dubbel punt in plaats van ;
+default voor als er geen waarde is gevonden
+als je meerdere values waar wil laten maken
+case 4;
+case 5;
+print()   nu zal hij bij 4 en 5 printen
+break;
