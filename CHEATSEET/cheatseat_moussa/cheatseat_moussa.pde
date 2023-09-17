@@ -56,3 +56,13 @@ case 4;
 case 5;
 print()   nu zal hij bij 4 en 5 printen
 break;
+
+while(moussa <- computer zoekt of het waar is dan activeert hij de while loop){
+ vervolgens blijft hij deze code hier voor altijd uitvoeren
+ zolang moussa == true
+}
+
+
+for(int i = 0; i <10; i++){
+ println(i);
+}
