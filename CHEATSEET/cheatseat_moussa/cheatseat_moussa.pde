@@ -196,7 +196,8 @@ class Object{
   int leeftijd;
   String naam;
     //constructur voor het maken van een nieuw object
-    public object(String naam, int leeftijd){
+    public Object(String naam, int leeftijd){ //constructor moet dezelfde naam hebben
+    // als de normale class Object en Object hoofdletter gevoelig
     this.naam = naam;
     this.leeftijd = leeftijd;
   }
@@ -216,6 +217,10 @@ size(500,500);
   Kogel myKogel = new Kogel(200,200,50); // hier moeten je argumenten voor je class
  //een kogel tekenen
   myKogel.teken();
+  //doe Kogel myKogel boven de void setup
+   dan doe myShip = new Ship() in de setup
+   dan myShip.methode in de draw
+   
 }
 classes moeten buiten de void setup gedifineerd worden
 
@@ -239,3 +244,9 @@ ControlP5 cp;
 void setup(){
   cp = new ControlP5(this);
 }
+
+//key
+printlh(key); die detectert normale toesten zoals a b c d e f g h i j k
+println(keyCode;) detectert alle keys maar met een beetje delay in een nummer
+
+if key == 'a' then gebruik de '' voor char
